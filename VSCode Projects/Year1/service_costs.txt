@@ -1,0 +1,5 @@
+Vehicle Type: 2 Wheeler, Premium Member: true, Cost: 45.0
+Vehicle Type: 3 Wheeler, Premium Member: true, Cost: 67.5
+Vehicle Type: 3 Wheeler, Premium Member: false, Cost: 75.0
+Vehicle Type: 3 Wheeler, Premium Member: false, Cost: 75.0
+Vehicle Type: 3 Wheeler, Premium Member: true, Cost: 67.5

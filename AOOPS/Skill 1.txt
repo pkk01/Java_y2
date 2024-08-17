@@ -1,0 +1,30 @@
+// Skill 1
+class Licence {
+    private Licence ()
+    {
+        
+    }
+    public static Licence obj = new Licence();
+    static Licence getLicence ()
+    {
+        return obj;
+    }
+    boolean CheckLicence (int x)
+    {
+        if (x==1)
+            return true;
+        else
+            return false;
+    }
+}
+class Main 
+{
+    public static void main (String[] args) {
+        Licence l = Licence.obj;
+        boolean r = l.CheckLicence (1);
+        if (r)
+            System.out.println("Licence Varified");   
+        else
+            System.out.println("Licence not Varified");
+    }
+}
