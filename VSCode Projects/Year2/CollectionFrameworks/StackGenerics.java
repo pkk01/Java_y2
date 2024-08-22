@@ -46,5 +46,4 @@ public class StackGenerics<T> {
         System.out.println("Popped element is : " + stack.pop());
         System.out.println("Top element is : " + stack.peek());
     }
-
 }
