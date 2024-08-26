@@ -28,15 +28,9 @@ public class StreamAPIMain {
 
         // Parallel Stream
 
-        List<Integer> num3 = Arrays.asList(0, 1, 2, 3, 4, 5, 6);
+        List<Integer> num3 = Arrays.asList(1, 2, 3, 4, 5, 6);
         int sum = num3.parallelStream().reduce(2, Integer::sum);
         System.out.println("Parallel Stream: " + sum);
-
-        // Stream
-
-        List<Integer> num4 = Arrays.asList(0, 1, 2, 3, 4, 5, 6);
-        int sum1 = num4.stream().reduce(2, Integer::sum);
-        System.out.println("Stream: " + sum1);
     }
 
 }
