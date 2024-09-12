@@ -1,0 +1,30 @@
+package com.one;
+
+import java.util.Scanner;
+
+public class ReadAll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter int");
+		int i = sc.nextInt();
+		System.out.println("Enter byte: ");
+		byte b = sc.nextByte();
+		
+		System.out.println("Enter long: ");
+		long l = sc.nextLong();
+		
+		System.out.println("Enter Float: ");
+		float f = sc.nextFloat();
+		
+		System.out.println("Enter double: ");
+		double d = sc.nextDouble();
+		sc.nextLine();
+		System.out.println("Enter String: ");
+		String s = sc.nextLine();
+		System.out.println("Enter bool: ");
+		boolean bool = sc.nextBoolean();
+	}
+
+}

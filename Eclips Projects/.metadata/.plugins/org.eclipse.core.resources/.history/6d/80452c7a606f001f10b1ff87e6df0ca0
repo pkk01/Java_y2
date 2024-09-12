@@ -1,0 +1,10 @@
+package com.one;
+
+
+
+
+public class MaxOfThreeMain {
+	int maxOfthree (int a, int b, int c) {}
+	
+	
+}

@@ -1,0 +1,23 @@
+package com.one;
+
+class Example {
+	static void show1 () {
+		System.out.println("static method");
+	}
+	
+	static {
+		System.out.println("Static block");
+	}
+}
+
+
+public class StaticBlockMain {
+
+	public static void main(String[] args) {
+		System.out.println("main method");
+		// TODO Auto-generated method stub
+		Example.show1();
+
+	}
+
+}

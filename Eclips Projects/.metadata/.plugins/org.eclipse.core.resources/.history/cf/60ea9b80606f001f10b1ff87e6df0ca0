@@ -1,0 +1,23 @@
+package com.one;
+
+
+
+
+public class MaxOfThreeMain {
+	int maxOfthree (int a, int b, int c) {
+	
+	if (a>b && a>c)
+		return a;
+	else if (b > a && b > c)
+		return b;
+	else 
+		return c;
+	
+	}
+	public static void main(String[] args) {
+		MaxOfThreeMain m3 = new MaxOfThreeMain();
+		int res = m3.maxOfthree(10, 20, 30);
+		System.out.println(res);
+		
+	}
+}

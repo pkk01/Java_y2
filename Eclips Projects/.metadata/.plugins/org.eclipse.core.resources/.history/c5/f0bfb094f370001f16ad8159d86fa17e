@@ -1,0 +1,41 @@
+package com.two;
+
+class Animal {
+	void eat () {
+		System.out.println("Animal eating");
+	}
+}
+
+class PetAnimal extends Animal{
+	
+	@Override
+	void eat () {
+		super.eat();
+		System.out.println("Pet eating");
+	}
+}
+
+class Dog extends PetAnimal {
+	
+	@Override
+	void eat () {
+		super.eat();
+		System.out.println("Dog eating");
+	}
+}
+
+class BabyDog extends PetAnimal {
+	
+	@Override
+	void eat () {
+		super.eat();
+		System.out.println("Baby Dog eating");
+	}
+}
+
+public class DynamicMethodDispatch {
+	public static void main(String[] args) {
+		BabyDog obj = new BabyDog();
+		obj.eat();
+	}
+}

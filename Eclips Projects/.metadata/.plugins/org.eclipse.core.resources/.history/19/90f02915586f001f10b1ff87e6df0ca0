@@ -1,0 +1,32 @@
+package com.one;
+/**
+ * documentation
+ * section 
+ * is optional
+ */
+public class Demo {
+	int i;
+	byte b;
+	long l;
+	float f;
+	double d;
+	String s;
+	boolean bool;
+	
+	@Override
+	public String toString () {
+		return "(i,b,l,f,d,s,bool)"+i;
+	}
+	public static void main(String[] pk) {
+		Demo demo = new Demo(); // jvm provides default constructor
+		
+		System.out.println("int = "+demo.i);
+		System.out.println("byte = "+demo.b);
+		System.out.println("long = "+demo.l);
+		System.out.println("float = "+demo.f);
+		System.out.println("double = "+demo.d);
+		System.out.println("String = "+demo.s);
+		System.out.println("boolean = "+demo.bool);
+		System.out.println("object = "+demo.toString());
+	}
+}

@@ -1,0 +1,27 @@
+package com.one;
+
+class Employee1 {
+	int id;
+	String name;
+	double salary;
+	String designation;
+	String department;
+	
+	public Employee1 () {
+		
+		id = 100;
+		name = "Pratham";
+		designation = "HR";
+		salary = 45000.0;
+		department = "Dept";
+//		emp = new Employee1();
+	}
+}
+
+
+public class ConstructorEmployee {
+	public static void main(String[] args) {
+		Employee1 emp = new Employee1();
+		
+	}
+}

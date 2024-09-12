@@ -1,0 +1,22 @@
+package com.one;
+
+class Employee {
+	int id;
+	String name;
+	double salary;
+	String designation;
+	String department;
+	
+	public Employee () {
+		System.out.println("Name: "+name+ " ID: "+id+ " Salary: "+salary+
+				" Designation: "+designation+ " Department: "+department);
+	}
+}
+
+
+public class ConstructorEmployee {
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		
+	}
+}

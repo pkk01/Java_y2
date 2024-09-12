@@ -1,0 +1,23 @@
+package com.two;
+
+class Animal {
+	void eat () {
+		System.out.println("Animal eating");
+	}
+}
+
+class PetAnimal extends Animal{
+	
+	@Override
+	void eat () {
+		System.out.println("Pet eating");
+	}
+}
+
+
+public class MethodOverRidingMain {
+	public static void main(String[] args) {
+		PetAnimal petAnimal = new PetAnimal();
+		pa.eat();
+	}
+}

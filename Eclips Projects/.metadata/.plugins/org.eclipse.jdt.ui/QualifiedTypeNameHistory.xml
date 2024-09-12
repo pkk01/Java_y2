@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.one.MaxOfThreeMain"/>
+    <fullyQualifiedTypeName name="com.one.Employee"/>
+    <fullyQualifiedTypeName name="com.two.PetAnimal"/>
+    <fullyQualifiedTypeName name="com.two.Dog"/>
+    <fullyQualifiedTypeName name="com.two.BabyDog"/>
+    <fullyQualifiedTypeName name="com.two.PetAnimal1"/>
+</qualifiedTypeNameHistroy>
