@@ -6,4 +6,9 @@
     <fullyQualifiedTypeName name="com.two.Dog"/>
     <fullyQualifiedTypeName name="com.two.BabyDog"/>
     <fullyQualifiedTypeName name="com.two.PetAnimal1"/>
+    <fullyQualifiedTypeName name="com.three.Sample2"/>
+    <fullyQualifiedTypeName name="com.three.Rectangle"/>
+    <fullyQualifiedTypeName name="com.three.Square"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
