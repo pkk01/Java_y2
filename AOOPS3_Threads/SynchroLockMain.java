@@ -14,7 +14,7 @@ class SyncExample {
 class Worker extends Thread {
 	private final SyncExample syncExample;
 	
-	public Worker(SyncExample syncExample) {
+	public Worker(Sy.ncExample syncExample) {
 		this.syncExample = syncExample;
 	}
 	
