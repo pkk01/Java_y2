@@ -38,6 +38,6 @@ public class ThreadPriorityMain {
 					
 		pt1.start();
 		pt2.start();
-		
-	}
-}
+					
+	}				
+}					
